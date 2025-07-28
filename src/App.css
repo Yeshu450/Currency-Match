@@ -1,0 +1,101 @@
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 40px;
+	letter-spacing: 1px;
+}
+
+#heading {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	column-gap: 8px;
+	font-size: 34px;
+	text-decoration: 4px wavy underline yellow;
+}
+
+#card {
+	width: 350px;
+	height: 350px;
+	background-color: white;
+	border: 5px solid darkviolet;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+#from,
+#to {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	font-size: 18px;
+}
+
+input {
+	width: 200px;
+	height: 40px;
+	border: 2px solid black;
+	outline: none;
+	border-right: 1px solid black;
+	padding-left: 10px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+    font-size: 14px;
+    background-color: snow;
+}
+select {
+	width: 80px;
+	height: 40px;
+	border: 2px solid black;
+	outline: none;
+	border-left: 1px solid black;
+	cursor: pointer;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+    text-align: center;
+    background-color: snow;
+}
+
+.child {
+	display: flex;
+}
+
+::placeholder {
+	color: gray;
+	font-size: 14px;
+	text-align: center;
+}
+
+#calculate-btn {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+#calculate-btn:hover {
+	background-color: #0056b3;
+}
+
+.select option {
+	font-size: 12px;
+    color: black;
+    background-color: white;
+}
+
+select:hover {
+    background-color: lightcyan;
+}
