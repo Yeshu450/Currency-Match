@@ -20,6 +20,15 @@ main {
 	text-decoration: 4px wavy underline yellow;
 }
 
+#footer{
+    color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	column-gap: 2px;
+}
+
 #card {
 	width: 350px;
 	height: 350px;
